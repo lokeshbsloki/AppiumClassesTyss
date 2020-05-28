@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40197" started-at="2020-05-14T16:37:42 IST" finished-at="2020-05-14T16:38:23 IST">
+  <suite name="Default suite" duration-ms="53601" started-at="2020-05-28T15:48:32 IST" finished-at="2020-05-28T15:49:26 IST">
     <groups>
+      <group name="lokesh">
+        <method signature="WebViewTestApp.tc_HybridApptest()[pri:0, instance:com.tyss.appiumproject.WebViewTestApp@133e16fd]" name="tc_HybridApptest" class="com.tyss.appiumproject.WebViewTestApp"/>
+      </group> <!-- lokesh -->
     </groups>
-    <test name="Default test" duration-ms="40197" started-at="2020-05-14T16:37:42 IST" finished-at="2020-05-14T16:38:23 IST">
-      <class name="com.tyss.appiumproject.DemoDriverRotatetest">
-        <test-method status="PASS" signature="tc_FindElementByAndroidAutomator()[pri:0, instance:com.tyss.appiumproject.DemoDriverRotatetest@133e16fd]" name="tc_FindElementByAndroidAutomator" duration-ms="40125" started-at="2020-05-14T16:37:42 IST" finished-at="2020-05-14T16:38:23 IST">
+    <test name="Default test" duration-ms="53601" started-at="2020-05-28T15:48:32 IST" finished-at="2020-05-28T15:49:26 IST">
+      <class name="com.tyss.appiumproject.WebViewTestApp">
+        <test-method status="PASS" signature="tc_HybridApptest()[pri:0, instance:com.tyss.appiumproject.WebViewTestApp@133e16fd]" name="tc_HybridApptest" duration-ms="53507" started-at="2020-05-28T15:48:32 IST" finished-at="2020-05-28T15:49:26 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_FindElementByAndroidAutomator -->
-      </class> <!-- com.tyss.appiumproject.DemoDriverRotatetest -->
+        </test-method> <!-- tc_HybridApptest -->
+      </class> <!-- com.tyss.appiumproject.WebViewTestApp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tyss.appiumproject.DemoDriverRotatetest">
+      <class name="com.tyss.appiumproject.WebAppDemo">
         <methods>
-          <include name="tc_FindElementByAndroidAutomator"/>
+          <include name="tc_webAppOpenBrowser"/>
         </methods>
-      </class> <!-- com.tyss.appiumproject.DemoDriverRotatetest -->
+      </class> <!-- com.tyss.appiumproject.WebAppDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
